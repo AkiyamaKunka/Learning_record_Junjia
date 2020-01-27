@@ -1,5 +1,6 @@
-# Learning_Record Junjia Wang
+# Study Record 
 
+By Junjia Wang
 
  ## Abstract
  This is A learning record of *Computer Science* field, like **CPP**, **algorithm** and so on. Started at the second half of my **freshman** year and until I became a qualified Software Engineer.
