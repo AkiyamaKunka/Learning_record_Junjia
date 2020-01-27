@@ -196,7 +196,7 @@ int main() {
 }
 ```
 
-##　6. Depth First Search
+## 6. Depth First Search
 
 Anyway, a very easy question which requests to show all of the arranges of an array.
 
