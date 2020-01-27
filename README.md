@@ -19,6 +19,7 @@ Additionally those OJ platforms like _**[Luogu](https://www.luogu.com.cn/), [lee
    * *C language design* (done)
  * Programs
    * [Gobang](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/GOBANG.md) (Final Assignment) (done) 
+ * [Notes](https://github.com/AkiyamaKunka/Learning_record_Junjia/blob/master/Notes%20for%20C.md)   
 ### C++
 * Books 
   * *C++ Primer* (reading)
