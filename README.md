@@ -28,7 +28,7 @@ Additionally those OJ platforms like _**[Luogu](https://www.luogu.com.cn/), [lee
   * Books 
     * *[Data Structures and Algorithm Analysis](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/%5BMark_A._Weiss%5D_Data_Structures_and_Algorithm_Anal.pdf)* (reading)
     * *Introduction to Algorithm* (plan)
-  * Notes  
+  * [Notes](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/Notes%20for%20Alogrithms.md)  
 
 ### Python 
   * Books 
