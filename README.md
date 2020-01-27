@@ -15,27 +15,27 @@ Additionally those OJ platforms like _**[Luogu](https://www.luogu.com.cn/), [lee
 
 ### C
  * Books 
- * *C Primer Plus* (suspended)
- * *C language design* (done)
+   * *C Primer Plus* (suspended)
+   * *C language design* (done)
  * Programs
- * [Gobang](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/GOBANG.md) (Final Assignment) (done) 
+   * [Gobang](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/GOBANG.md) (Final Assignment) (done) 
 ### C++
 * Books 
- * *C++ Primer* (reading)
- * *Effictive C++* (plan)
+  * *C++ Primer* (reading)
+  * *Effictive C++* (plan)
 * Notes 
 
 ### Algorithm & Data structure
  * Books 
- * *[Data Structures and Algorithm Analysis](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/%5BMark_A._Weiss%5D_Data_Structures_and_Algorithm_Anal.pdf)* (reading)
- * *Introduction to Algorithm* (plan)
+   * *[Data Structures and Algorithm Analysis](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/%5BMark_A._Weiss%5D_Data_Structures_and_Algorithm_Anal.pdf)* (reading)
+   * *Introduction to Algorithm* (plan)
  * [Notes](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/Notes%20for%20Alogrithms.md) 
 
 ### Python 
  * Books 
- * *Crush Course on Python* (reading)
- * *Fluent Python* (plan)
+   * *Crush Course on Python* (reading)
+   * *Fluent Python* (plan)
  * Programs
- * Air Battle (plan)
+   * Air Battle (plan)
 ### Java (pending)
  
