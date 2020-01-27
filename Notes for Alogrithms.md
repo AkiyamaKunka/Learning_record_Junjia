@@ -106,7 +106,7 @@ int maxf(int *arr)
     return maxsum;
 }
 ```
-## 4. Opimal Power
+## 4. Opitmal Power
 
 The running time is O(logN)
 
