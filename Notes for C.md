@@ -1,4 +1,4 @@
-# C++ knowledge
+# C knowledge
 
 ## 1. Abstruct
 Some of the notes is in Chinese with poor language organization, however, I firmly suppose those accumulation has tremendous value which cannot be disgarded.
