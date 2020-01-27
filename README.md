@@ -5,7 +5,7 @@ By Junjia Wang
  ## Abstract
  This is A learning record of *Computer Science* field, like **CPP**, **algorithm** and so on. Started at the second half of my **freshman** year and until I became a qualified Software Engineer.
 
-Sincerely appreciate so much the platforms, which include 
+Sincerely appreciate so many brilliant platforms, which include 
 _**[Github](https://github.com/), 
 [Google](https://www.google.com/), [Stackoverflow](https://stackoverflow.com/)**_ that I utilized for searching and knowledge acquirement.
 
