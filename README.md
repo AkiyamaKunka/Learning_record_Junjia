@@ -3,13 +3,13 @@
 By Junjia Wang
 
  ## Abstract
- This is A learning record of *Computer Science* field, like **CPP**, **algorithm** and so on. Started at the second half of my **freshman** year and until I became a qualified Software Engineer.
+ This is A learning record of *Computer Science* field, like **CPP**, **algorithm** and so on. Started at the second half of my **freshman** year and until I become a qualified Software Engineer.
 
 Sincerely appreciate so many brilliant platforms, which include 
 _**[Github](https://github.com/), 
-[Google](https://www.google.com/), [Stackoverflow](https://stackoverflow.com/)**_ that I utilized for searching and knowledge acquirement.
+[Google](https://www.google.com/), [Stackoverflow](https://stackoverflow.com/)**_ that I utilized for searching and knowledge acquirement, additionally, those OJ platforms like _**[Luogu](https://www.luogu.com.cn/), [leetcode](https://leetcode-cn.com/), [codeforces](https://codeforces.com/)**_ as a tremendous approach to enhance the capacity of coding and logic constructions, which drastically determines the likelihood of being admitted into a company in the visible future .
 
-Additionally those OJ platforms like _**[Luogu](https://www.luogu.com.cn/), [leetcode](https://leetcode-cn.com/), [codeforces](https://codeforces.com/)**_ .
+**The passion for exploring Unknown and the spirit of never giving up, is what that makes the IT world great.**
 
 ## Fields of CS Learning & Record
 
