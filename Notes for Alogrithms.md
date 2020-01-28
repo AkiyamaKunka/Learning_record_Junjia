@@ -112,7 +112,7 @@ The running time is O(logN)
 
 the key thinking is power(x,n)=power(x^2,n/2), so the computing time is drastically decreased.
 ```cpp
-nt best_power(int x,int n)
+int best_power(int x,int n)
 {
     if(n==0)return 1;
     if(n==1)return x;
