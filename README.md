@@ -40,3 +40,8 @@ _**[Github](https://github.com/),
    * Air Battle (plan)
 ### Java (pending)
  
+ 
+## The question that I encountered during learning 
+ * English 
+ Here is a thesis that indicates the extensive problems for massive non-native English spearker/ CS student to obtain resources. Hope this can be helpful ! 
+ * _**Non-Native English Speakers Learning Computer Programming: Barriers, Desires, and Design Opportunities**_
