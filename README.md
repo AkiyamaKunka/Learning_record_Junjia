@@ -30,6 +30,8 @@ _**[Github](https://github.com/),
  * Books 
    * *[Data Structures and Algorithm Analysis](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/%5BMark_A._Weiss%5D_Data_Structures_and_Algorithm_Anal.pdf)* (reading)
    * *Introduction to Algorithm* (plan)
+ * Courses
+   * _**[Divide and Conquer, Sorting and Searching, and Randomized Algorithms](Divide and Conquer, Sorting and Searching, and Randomized Algorithms)**_ by Stanford University on Coursera
  * [Notes](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/Notes%20for%20Alogrithms.md) 
 
 ### Python 
