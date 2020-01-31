@@ -6,3 +6,4 @@ To the best of my knowledge, my previous vocabulary guide for NJCEE which is pro
 
 Back to the battle between software and paper, non-fixed words that appear on electronic devices hampered my repetitive action of reciting words that deriving from the previous positions. That’s the situation on electronic side. Notwithstanding, the delightful immobility helped me to consolidate my words memory. Likewise, considering that the changeable sequence of words to review, I’d regard the algorithm for analysis memory curve in those APPs with reproach, intervened the proceeding of ordinary reciting, as a result of lack of privilege to mandate words entities, And this contribute to low-efficient endeavor. Additionally, deploying those words brings me a thought of achievement to motivate me to keep going. Never contempt the motive of a learning action, which can be the sole reason that why we take an everlasting approach toward the ultimate quantizable goal. 
 
+Stay tuned.
