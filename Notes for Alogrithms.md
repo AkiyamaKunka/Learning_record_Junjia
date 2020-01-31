@@ -112,7 +112,7 @@ The running time is O(logN)
 
 the key thinking is power(x,n)=power(x^2,n/2), so the computing time is drastically decreased.
 ```cpp
-nt best_power(int x,int n)
+int best_power(int x,int n)
 {
     if(n==0)return 1;
     if(n==1)return x;
@@ -196,7 +196,7 @@ int main() {
 }
 ```
 
-##　6. Depth First Search
+## 6. Depth First Search
 
 Anyway, a very easy question which requests to show all of the arranges of an array.
 
