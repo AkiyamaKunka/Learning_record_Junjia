@@ -36,15 +36,22 @@ _**[Github](https://github.com/),
  * BFS *1 
  * DFS LG *2 
 
-### Python 
+### Python (pending)
  * Books 
    * *Crush Course on Python* (reading)
    * *Fluent Python* (plan)
  * Programs
    * Air Battle (plan)
-### Java (pending)
- 
- 
+### Java 
+ * Books 
+   * *Core Java* (reading)
+   * *Thingking in Java* (plan)
+### Linux and VPS
+ * Basic implement of command model on Linux
+ * set up a useable Shadowsocks or V2ray on it
+ * set up my personal blog based on Github, move my learning record on that.
+   
+
 ## The question that I encountered during learning 
  * English 
  
