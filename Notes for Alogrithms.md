@@ -338,3 +338,154 @@ void quick_sort(int * arr,int low,int high)
 
 //这个是排序函数主体，在拥有了一次axis的基础上，再一分为二，排列左右两端的数组，使他们都带有同part sort函数已经排序过数列相同的性质。
 ```
+## 9.BFS
+广度优先搜索算法的搜索步骤一般是：
+
+      （1）从队列头取出一个结点，检查它按照扩展规则是否能够扩展，如果能则产生一个新结点。
+
+       （2）检查新生成的结点，看它是否已在队列中存在，如果新结点已经在队列中出现过，就放弃这个结点，然后回到第（1）步。否则，如果新结点未曾在队列中出现过，则将它加入到队列尾。
+
+      （3）检查新结点是否目标结点。如果新结点是目标结点，则搜索成功，程序结束；若新结点不是目标结点，则回到第（1）步，再从队列头取出结点进行扩展。
+
+      最终可能产生两种结果：找到目标结点，或扩展完所有结点而没有找到目标结点。
+
+      如果目标结点存在于解答树的有限层上，广度优先搜索算法一定能保证找到一条通向它的最佳路径，因此广度优先搜索算法特别适用于只需求出最优解的问题。当问题需要给出解的路径，则要保存每个结点的来源，也就是它是从哪一个节点扩展来的。
+
+      对于广度优先搜索算法来说，问题不同则状态结点的结构和结点扩展规则是不同的，但搜索的策略是相同的。广度优先搜索算法的框架一般如下：
+
+void  BFS（）
+
+{
+
+    队列初始化；
+
+    初始结点入队；
+
+    while （队列非空）
+
+    {  
+
+          队头元素出队，赋给current；
+
+          while  （current 还可以扩展）
+
+          {
+
+              由结点current扩展出新结点new；
+
+              if  （new 重复于已有的结点状态） continue;
+
+              new结点入队；
+
+              if  (new结点是目标状态)
+
+              {
+
+                    置flag= true;    break; 
+
+               }
+
+          }
+
+      }
+
+}
+
+       对于不同的问题，用广度优先搜索法的算法基本上都是一样的。但表示问题状态的结点数据结构、新结点是否为目标结点和是否为重复结点的判断等方面则有所不同。对具体的问题需要进行具体分析，这些函数要根据具体问题进行编写。
+       【例1】黑色方块
+
+      有一个宽为W、高为H的矩形平面，用黑色和红色两种颜色的方砖铺满。一个小朋友站在一块黑色方块上开始移动，规定移动方向有上、下、左、右四种，且只能在黑色方块上移动（即不能移到红色方块上）。编写一个程序，计算小朋友从起点出发可到达的所有黑色方砖的块数（包括起点）。
+
+      例如，如图1所示的矩形平面中，“#”表示红色砖块，“．”表示黑色砖块，“@”表示小朋友的起点，则小朋友能走到的黑色方砖有28块。
+
+```cpp
+#include <iostream>
+#include <cstdio>
+#include <algorithm>
+#include <cstring>
+#include <cmath>
+#include <vector>
+#include <list>
+#include <fstream>
+#include <ostream>
+#include <complex>
+#include <fstream>
+#include "Sales_data.h"
+#include <queue>
+#define NDEBUG
+//#include <cassert>
+#define LOCAL
+using namespace std;
+const int maxn=1000;
+bool visit[maxn][maxn]={false};
+char map[maxn][maxn];
+int cnt=0;
+int w,h;
+
+struct Node{
+    int x;
+    int y;
+};
+
+queue<Node> q;
+
+void bfs(Node cur)
+{
+
+    if(q.empty())
+        cout<<cnt;
+    else{
+        q.pop();
+        visit[cur.x][cur.y]=true;
+        cnt++;
+        Node now;
+        if(map[cur.x+1][cur.y]=='.' && cur.x+1<w && !visit[cur.x+1][cur.y]) {
+            now.x=cur.x+1;
+            now.y=cur.y;
+            q.push(now);
+            visit[cur.x+1][cur.y]=true;
+        }
+        if(map[cur.x][cur.y+1] =='.'&& cur.y+1<h && !visit[cur.x][cur.y+1]){
+            now.x=cur.x;
+            now.y=cur.y+1;
+            q.push(now);
+            visit[cur.x][cur.y+1]=true;
+        }
+        if(map[cur.x-1][cur.y] =='.'&& cur.x-1>=0 && !visit[cur.x-1][cur.y]){
+            now.x=cur.x-1;
+            now.y=cur.y;
+            q.push(now);
+            visit[cur.x-1][cur.y]=true;
+        }
+        if(map[cur.x][cur.y-1]=='.'  && cur.y-1 >=0 && !visit[cur.x][cur.y-1]){
+            now.x=cur.x;
+            now.y=cur.y-1;
+            q.push(now);
+            visit[cur.x][cur.y-1]=true;
+        }
+        bfs(q.front());
+    }
+}
+
+int main(){
+#ifdef LOCAL
+    freopen("try3.txt","r",stdin);
+    freopen("data_in.txt","w",stdout);
+#endif
+    cin>>w>>h;
+    Node point0;
+    cin>>point0.x>>point0.y;
+    q.push(point0);
+    for (int i = 0; i < w; i++)
+        for (int j = 0; j < h; j++)
+        {
+            cin>>map[i][j];
+            if(map[i][j]!='.')
+                visit[i][j]=true;
+        }
+
+
+    bfs(point0);
+    return 0;
+}
+```
