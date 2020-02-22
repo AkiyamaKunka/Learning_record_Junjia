@@ -33,6 +33,8 @@ _**[Github](https://github.com/),
  * Courses
    * _**[Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer/home/welcome)**_ by Stanford University on Coursera
  * [Notes](https://github.com/AkiyamaKunka/Learing_record_Junjia/blob/master/Notes%20for%20Alogrithms.md) 
+ * BFS *1 
+ * DFS LG *2 
 
 ### Python 
  * Books 
